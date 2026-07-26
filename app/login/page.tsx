@@ -22,7 +22,7 @@ export default function LoginPage() {
       setError(signInError.message || signInError.code || "Something went wrong");
       return;
     }
-    router.push("/");
+    router.push("/dashboard");
   };
 
   return (
